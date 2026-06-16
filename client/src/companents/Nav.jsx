@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import {Link} from "react-router-dom"
 
 const FirstPage = () => {
-  const [open ,setOpen] = useState(true)
+  const [open ,setOpen] = useState(false)
   return (
     <>
     <div className="px-[10px] z-30 flex justify-end p-4 border-b-[0.5px] border-b-gray-300 fixed top-0 right-0 left-0 backdrop-blur ">
